@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --azul-principal: #003D73;
+    --azul-secundario: #0057B8;
+    --cinza-texto: #4A4A4A;
+    --cinza-claro: #F4F6F8;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    color: var(--cinza-texto);
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--azul-principal);
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(90deg, var(--azul-principal), var(--azul-secundario));
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(180deg, var(--azul-principal) 0%, var(--azul-secundario) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--azul-secundario), var(--azul-principal));
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+.bg-soft {
+    background-color: var(--cinza-claro);
+}
+
+.card-projeto-visual {
+    background: #fff;
+    border-radius: 1.25rem;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-projeto-visual:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.card-projeto-visual img {
+    border-radius: 0.75rem;
+}
+
+.card-projeto {
+    background-color: #fff;
+    border-radius: 1.25rem;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background: linear-gradient(90deg, var(--azul-principal), var(--azul-secundario));
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
