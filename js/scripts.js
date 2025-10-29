@@ -72,19 +72,19 @@ document.addEventListener('DOMContentLoaded', () => {
 const projetos = [
     {
         link: "https://www.behance.net/gallery/154145453/Cadernos-AWE-Bauhaus-2022",
-        imagem: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/649745154145453.Y3JvcCwxMTkyLDkzMywxMDMsMA.jpg",
+        imagem: "img/cadernos-bauhaus.webp",
         titulo: "Cadernos AWE Bauhaus 2022",
         descricao: "Projeto criado em conjunto com outros designers para o IFRN"
     },
     {
         link: "https://www.behance.net/cesimarxavier",
-        imagem: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/dd7bd2205105751.Y3JvcCwxMDI0LDgwMCwwLDM1.png",
+        imagem: "img/interfaces-replicacaveis.webp",
         titulo: "Interfaces replicáveis da HC Sports",
         descricao: "Projeto de sistema de interfaces replicáveis"
     },
     {
         link: "https://dribbble.com/shots/26136379-Conhe-a-a-INCIBRA-Engenharia",
-        imagem: "https://cdn.dribbble.com/userupload/43664312/file/original-5c2dfa860b997654af6f413f7bd3dad3.png?format=webp&resize=400x300&vertical=center",
+        imagem: "img/projeto-incibra.webp",
         titulo: "Projeto Incibra",
         descricao: "Projeto de Site Institucional para Incibra Engenharia"
     }
